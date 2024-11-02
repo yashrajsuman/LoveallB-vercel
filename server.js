@@ -10,7 +10,7 @@ import errorHandler from './middleware/errorHandler.js';
 import { authMiddleware } from './middleware/isAuthenticated.js';
 
 // Dotenv configuration
-dotenv.config();
+//dotenv.config();
 
 // Create an Express application
 const app = express();
