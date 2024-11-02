@@ -40,11 +40,11 @@ app.use('/api/Buss', BRoute);
 app.use(errorHandler);
 
 // HTTP server creation
-const port = process.env.PORT || 3000;
-const server = http.createServer(app);
-server.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+//const port = process.env.PORT || 3000;
+//const server = http.createServer(app);
+//server.listen(port, () => {
+   // console.log(`Server is running on port ${port}`);
+//});
 
 
 // Default export for the app
