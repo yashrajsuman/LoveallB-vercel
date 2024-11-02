@@ -8,16 +8,13 @@
     "dev": "nodemon server.js",
     "start": "node server.js" 
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Himanshuraj677/loveall-backend.git"
-  },
+  
   "author": "Himanshu Raj",
   "license": "ISC", 
   "bugs": {
     "url": "https://github.com/Himanshuraj677/loveall-backend/issues"
   },
-  "homepage": "https://github.com/Himanshuraj677/loveall-backend#readme",
+ 
   "description": "A backend service for the LoveAll application", 
   "dependencies": {
     "bcrypt": "^5.1.1",
