@@ -2,31 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "./BChangePassword.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./BForgetPassword.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./BSendOtp.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./BusinessLogin.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./BusinessRegister.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./BusinessVerifyOtp.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./BSendOtp.js",
+        "src": "server.js",
         "use": "@vercel/node"
       }
     ],
